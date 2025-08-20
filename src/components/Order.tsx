@@ -64,7 +64,10 @@ export default function Order() {
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data}>
             <CartesianGrid strokeDasharray="3 3" vertical={false} />
-            <XAxis dataKey="day" />
+            <XAxis dataKey="day"
+            tick={{fill:"#9CA3AF"}}
+              axisLine={{ stroke: "#9CA3AF" }}
+              tickLine={false} />
             <YAxis hide />
             <Tooltip />
             <Line
