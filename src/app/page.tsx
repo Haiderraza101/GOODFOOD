@@ -1,4 +1,6 @@
+import MostOrderedFood from "@/components/MostOrderedFood"
 import Navbar from "@/components/Navbar"
+import Order from "@/components/Order"
 import OrderTime from "@/components/OrderTime"
 import Rating from "@/components/Rating"
 import Revenue from "@/components/Revenue"
@@ -34,12 +36,13 @@ export default function App() {
 
             
             <div className="lg:border-r border-r-gray-300 ">
-              Column 2 (row 2)
+              <MostOrderedFood/>
+              
             </div>
 
            
             <div >
-              Hello
+              <Order/>
             </div>
           </div>
         </div>
