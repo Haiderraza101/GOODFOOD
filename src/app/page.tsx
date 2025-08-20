@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar"
 import OrderTime from "@/components/OrderTime"
+import Rating from "@/components/Rating"
 import Revenue from "@/components/Revenue"
 import SideBar from "@/components/SideBar"
 
@@ -8,7 +9,7 @@ export default function App() {
     <div>
       <div>
         <SideBar />
-        <div className="lg:ml-72 md:ml-10 sm:ml-10 ml-10 lg:max-h-screen">
+        <div className="lg:ml-72 md:ml-10 sm:ml-10 ml-10 ">
           <Navbar />
           <div className="font-medium lg:px-10 lg:py-5 px-6 py-3 text-gray-700 ">
             Dashboard
@@ -28,7 +29,7 @@ export default function App() {
 
           
             <div className="lg:border-r border-r-gray-300  ">
-              Your rating
+              <Rating/>
             </div>
 
             
