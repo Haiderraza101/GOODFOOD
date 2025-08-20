@@ -22,7 +22,7 @@ export default function App() {
             </div>
 
            
-            <div className="bg-white">
+            <div className="lg:border-b border-b-gray-300">
               <OrderTime />
             </div>
 
@@ -37,8 +37,8 @@ export default function App() {
             </div>
 
            
-            <div className="bg-gray-100 p-4 rounded-xl shadow">
-              Column 3 (row 2)
+            <div >
+              Hello
             </div>
           </div>
         </div>
