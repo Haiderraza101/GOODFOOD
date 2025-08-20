@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <div >
       <div >
-        <div className="flex justify-between items-center lg:p-4.5 p-3
+        <div className="flex justify-between items-center lg:p-4 p-3
         lg:pl-15 pl-10 lg:border-b-2 border-b-gray-200 relative">
           <div className="relative lg:w-[60%] md:w-[50%] w-[40%]">
           <input 
@@ -22,7 +22,7 @@ export default function Navbar() {
          src="/burger.png"
          width={25}
          height={20}
-        
+         alt="burger"
          >
 
          </Image>
