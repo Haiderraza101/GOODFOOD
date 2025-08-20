@@ -1,7 +1,15 @@
 'use client'
-import { PieChartData } from "@/types/PieChart";
+
 import { Cell, Pie, PieChart, ResponsiveContainer, Sector, Tooltip } from "recharts";
 import CustomTooltip from "./CustomTooltip";
+
+interface PieChartData{
+  name:string,
+  value:number,
+  color:string,
+  time:string,
+  orders:number
+}
 
 const data:PieChartData [] = [
   {
