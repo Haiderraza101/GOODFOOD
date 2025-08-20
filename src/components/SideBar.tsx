@@ -19,7 +19,7 @@ export default function SideBar() {
       </div>
 
       <div
-        className={`fixed z-40 inset-y-0 left-0 w-74 bg-gray-100 transform transition-transform duration-300 lg:fixed lg:h-screen lg:translate-x-0 ${
+        className={`fixed z-40 inset-y-0 left-0 w-72 bg-gray-100 transform transition-transform duration-300 lg:fixed lg:h-screen lg:translate-x-0 ${
           sidebaropen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
