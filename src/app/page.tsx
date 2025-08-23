@@ -1,18 +1,13 @@
 import MostOrderedFood from "@/components/MostOrderedFood"
-import Navbar from "@/components/Navbar"
 import Order from "@/components/Order"
 import OrderTime from "@/components/OrderTime"
 import Rating from "@/components/Rating"
 import Revenue from "@/components/Revenue"
-import SideBar from "@/components/SideBar"
 
 export default function App() {
   return (
     <div>
       <div>
-        <SideBar />
-        <div className="lg:ml-72 md:ml-10 sm:ml-10 ml-10 ">
-          <Navbar />
           <div className="font-medium lg:px-10 lg:py-5 px-6 py-3 text-gray-700 ">
             Dashboard
           </div>
@@ -47,6 +42,5 @@ export default function App() {
           </div>
         </div>
       </div>
-    </div>
   )
 }

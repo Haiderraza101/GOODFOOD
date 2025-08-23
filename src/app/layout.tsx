@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import SideBar from "@/components/SideBar";
+import Navbar from "@/components/Navbar";
 
 // Font configurations
 const inter = Inter({
@@ -35,7 +37,11 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <SideBar/>
+        <div className="lg:ml-72 md:ml-10 sm:ml-10 ml-10 ">
+                  <Navbar />
         {children}
+        </div>
       </body>
     </html>
   );

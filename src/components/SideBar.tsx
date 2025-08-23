@@ -40,7 +40,7 @@ export default function SideBar() {
         </div>
        <div className="flex flex-col cursor-pointer px-5 text-xs  max-h-1/2 gap-1">
       <Link
-      href="#" className={
+      href="/" className={
         `
         px-6 flex gap-4 p-2 group rounded-xl ${
           activeitem === "Dashboard" ? 'bg-[#7476d4]/10' : ''
@@ -74,7 +74,7 @@ export default function SideBar() {
 
 
  <Link
- href="#" className={
+ href="/FoodOrder" className={
         `
         px-6 flex gap-4 p-2 group rounded-xl ${
           activeitem === "FoodOrder" ? 'bg-[#7476d4]/10' : ''
