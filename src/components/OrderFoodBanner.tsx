@@ -8,7 +8,7 @@ import AddressDetail from "./AddressDetail";
 
 export default function OrderFoodBanner({foodData}:OrderFoodBannerProps){
   return (
-    <div className="mr-10 sm:mr-0">
+    <div className="mr-10 sm:mr-0 overflow:hidden">
         <FoodOrderBanner/>
       <div className="lg:grid lg:grid-cols-3 flex flex-wrap gap-10 lg:gap-0 sm:gap-6 ">
 <div className="col-span-2 ">

@@ -39,7 +39,7 @@ const cartdata : CartData[] = [
 export default function Cart(){
   return (
     <div>
-        <div className="p-6 w-full">
+        <div className="pr-6 sm:p-0 w-full">
         <div className="bg-white border border-gray-100 shadow-sm p-10 w-full rounded-2xl">
           <div className="flex justify-between">
             <div className="flex gap-4">
