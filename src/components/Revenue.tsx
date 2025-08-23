@@ -2,7 +2,7 @@ import RevenueChart from "./RevenueChart";
 
 export default function Revenue(){
   return (
-    <div className="lg:px-10 px-6 ">
+    <div className="lg:px-10 sm:px-6 px-2 ">
       <div>
       
         <div className="flex justify-between">

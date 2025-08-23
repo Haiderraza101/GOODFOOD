@@ -6,8 +6,7 @@ export default function FoodCard({food}:FoodCardProps){
     <div>
       <div className="bg-white w-full max-w-sm  pb-5 p-1 rounded-2xl border border-gray-200">
 <div
-  className="p-5 px-15  sm:px-2 sm:p-2 max-h-100 rounded-2xl flex items-center justify-center bg-gray-400 sm:bg-gray-200"
- 
+  className="p-5 px-15 sm:px-2 sm:p-2 max-h-100 rounded-2xl flex items-center justify-center !bg-gray-200"
 >
   <div className="w-[120px] h-[120px] flex items-center justify-center">
     <Image
