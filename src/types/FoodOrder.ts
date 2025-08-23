@@ -8,3 +8,8 @@ export interface FoodData {
   totalorders: number;
   photourl: string;
 }
+
+
+export interface OrderFoodBannerProps {
+  foodData: FoodData[];
+};

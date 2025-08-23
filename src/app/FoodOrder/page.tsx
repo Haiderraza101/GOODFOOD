@@ -1,6 +1,6 @@
-import Link from "next/link";
+
+import OrderFoodBanner from "@/components/OrderFoodBanner";
 import { FoodData } from "@/types/FoodOrder";
-import Image from "next/image";
 
 export default function FoodOrder() {
 
@@ -13,7 +13,8 @@ const foodData: FoodData[] = [
     deliverprice: "$2",
     rating: "4.6",
     totalorders: 1200,
-    photourl: "https://images.unsplash.com/photo-1601924582971-df1d2f5c163e",
+    photourl: "/pizza.png",
+    bgcolor: "#F3F6FD", 
   },
   {
     name: "Cheeseburger",
@@ -23,7 +24,8 @@ const foodData: FoodData[] = [
     deliverprice: "$1.5",
     rating: "4.4",
     totalorders: 950,
-    photourl: "https://images.unsplash.com/photo-1550547660-d9450f859349",
+     photourl:  "/cheeseburger.png",
+    bgcolor: "#FDF3F4", 
   },
   {
     name: "Chicken Biryani",
@@ -33,7 +35,8 @@ const foodData: FoodData[] = [
     deliverprice: "$1",
     rating: "4.8",
     totalorders: 2000,
-    photourl: "https://images.unsplash.com/photo-1633933746847-6e4b0a9b7af9",
+     photourl: "/chickenbiryani.png",
+    bgcolor: "#FDF9F3",
   },
   {
     name: "Sushi Platter",
@@ -43,7 +46,8 @@ const foodData: FoodData[] = [
     deliverprice: "$3",
     rating: "4.7",
     totalorders: 750,
-    photourl: "https://images.unsplash.com/photo-1553621042-f6e147245754",
+    photourl: "/sushiplater.png",
+    bgcolor: "#F3FDF7", 
   },
   {
     name: "Pad Thai",
@@ -53,7 +57,8 @@ const foodData: FoodData[] = [
     deliverprice: "$2",
     rating: "4.5",
     totalorders: 680,
-    photourl: "https://images.unsplash.com/photo-1604908176997-1c4b8a18a56d",
+   photourl: "/padthai.png",
+    bgcolor: "#F0E7E9", 
   },
   {
     name: "Tacos al Pastor",
@@ -63,7 +68,8 @@ const foodData: FoodData[] = [
     deliverprice: "$1",
     rating: "4.3",
     totalorders: 830,
-    photourl: "https://images.unsplash.com/photo-1617196039987-0d9f1f2c3560",
+     photourl: "/tacosalposter.png",
+    bgcolor: "#FDF3FB",
   },
   {
     name: "Shawarma Wrap",
@@ -73,7 +79,8 @@ const foodData: FoodData[] = [
     deliverprice: "$1",
     rating: "4.6",
     totalorders: 1100,
-    photourl: "https://images.unsplash.com/photo-1625941344021-02a7eb7c13fd",
+     photourl: "/shwarmawrap.png",
+    bgcolor: "#F3FDFD", 
   },
   {
     name: "Pasta Alfredo",
@@ -83,7 +90,8 @@ const foodData: FoodData[] = [
     deliverprice: "$2",
     rating: "4.5",
     totalorders: 890,
-    photourl: "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+    photourl: "/alferedopasta.png",
+    bgcolor: "#FFF9F3", 
   },
   {
     name: "Falafel Bowl",
@@ -93,7 +101,8 @@ const foodData: FoodData[] = [
     deliverprice: "$1.5",
     rating: "4.2",
     totalorders: 640,
-    photourl: "https://images.unsplash.com/photo-1617196039967-cb47a1a2fdb0",
+    photourl: "/falafelbowl.png",
+    bgcolor: "#F8F3FD", 
   },
   {
     name: "Butter Chicken",
@@ -103,7 +112,8 @@ const foodData: FoodData[] = [
     deliverprice: "$2",
     rating: "4.8",
     totalorders: 1750,
-    photourl: "https://images.unsplash.com/photo-1604908177096-0085c163a09b",
+     photourl: "/butterchicken.png",
+    bgcolor: "#FDF3F8",
   },
   {
     name: "Pho Noodle Soup",
@@ -113,7 +123,8 @@ const foodData: FoodData[] = [
     deliverprice: "$2",
     rating: "4.6",
     totalorders: 720,
-    photourl: "https://images.unsplash.com/photo-1604908176909-bd0c2e9c09ee",
+     photourl: "/phonoodlesoap.png",
+    bgcolor: "#F3F6FD",
   },
   {
     name: "Kebab Skewers",
@@ -123,7 +134,8 @@ const foodData: FoodData[] = [
     deliverprice: "$2",
     rating: "4.7",
     totalorders: 960,
-    photourl: "https://images.unsplash.com/photo-1633933746907-7f6b0d4d10b7",
+    photourl: "/kebabskewers.png",
+    bgcolor: "#FDF3F4", 
   },
   {
     name: "Fried Chicken",
@@ -133,7 +145,8 @@ const foodData: FoodData[] = [
     deliverprice: "$1.5",
     rating: "4.4",
     totalorders: 1320,
-    photourl: "https://images.unsplash.com/photo-1625941352493-9d7c5a1c63d5",
+     photourl: "/friedchicken.png",
+    bgcolor: "#FDF9F3", 
   },
   {
     name: "Dim Sum Platter",
@@ -143,7 +156,8 @@ const foodData: FoodData[] = [
     deliverprice: "$2.5",
     rating: "4.5",
     totalorders: 810,
-    photourl: "https://images.unsplash.com/photo-1589301772789-43eabf6b5af8",
+     photourl: "/dimsumplater.png",
+    bgcolor: "#F3FDF7", 
   },            
   {
     name: "Greek Salad",
@@ -153,40 +167,15 @@ const foodData: FoodData[] = [
     deliverprice: "$1",
     rating: "4.3",
     totalorders: 540,
-    photourl: "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+     photourl: "/greeksalad.png",
+    bgcolor: "#FDF3FB",
   },
 ];
 
   
  return (
-    <div className="w-full ">
-      <div className="flex flex-col lg:flex-row justify-between lg:items-start items-center lg:p-10 p-6">
-        <div className="text-center lg:text-left">
-          <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-600">
-            Order Food 
-          </div>
-           <div className="text-medium text-gray-400 py-4 max-w-md">
-Your favorite cuisines, just a click away
-          </div>
-          
-<div className="text-sm text-gray-400 py-2 max-w-md">
-  Order now and enjoy fresh meals delivered to your doorstep. Choose from a
-  variety of cuisines, freshly prepared with quality ingredients, and get your
-  favorite dishes served hot and fast.
-</div>
-           
-        </div>
-
-        <div className="mt-6 lg:mt-0">
-          <Image
-            src="/scooter.png"
-            height={700}
-            width={700}
-            alt="Scooter"
-            
-          />
-        </div>
-      </div>
+    <div>
+      <OrderFoodBanner foodData={foodData}/>
     </div>
   );
 }
