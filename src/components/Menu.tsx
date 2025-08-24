@@ -11,7 +11,7 @@ export default function Menu() {
         Menu
       </div>
 
-      <div className=" flex gap-2 p-3 sm:p-5 flex-wrap items-center justify-center lg:ml-6">
+      <div className=" flex gap-2 p-3 sm:p-5 flex-wrap items-center justify-center lg:ml-4">
         <div>
          <BurgerMenu/>
             </div>
