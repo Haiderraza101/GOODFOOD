@@ -30,3 +30,8 @@ export interface OrderFoodBannerProps {
 export interface FoodCardProps{
   food:FoodData;
 }
+
+export interface EditFoodCardProps{
+  foodData:FoodData;
+}
+

@@ -38,7 +38,7 @@ export default function KebabMenu() {
               className="flex gap-2 justify-between items-center py-[2px]"
             >
               <div className="text-gray-500 text-[10px]">{kebab.name}</div>
-              <div className="flex-1 border-b border-gray-300 mx-2"></div>
+              <div className="flex-1 border-b border-gray-400 mx-2"></div>
               <div className="text-gray-500 text-[10px]">{kebab.price}</div>
             </div>
           ))}

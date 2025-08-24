@@ -1,8 +1,8 @@
 export default function BurgerMenu() {
   const burgers = [
     { name: "Beef Burger", price: "$6" },
-    { name: "Chicken", price: "$5" },
-    { name: "Cheese", price: "$7" },
+    { name: "Chick Burger", price: "$5" },
+    { name: "Cheesy Burger", price: "$7" },
     { name: "Zinger Burger", price: "$10" },
   ];
 
@@ -39,7 +39,7 @@ export default function BurgerMenu() {
               className="flex gap-2 justify-between items-center py-[2px]"
             >
               <div className="text-gray-500 text-[10px]">{burger.name}</div>
-              <div className="flex-1 border-b border-gray-300 mx-2"></div>
+              <div className="flex-1 border-b border-gray-400 mx-2"></div>
               <div className="text-gray-500 text-[10px]">{burger.price}</div>
             </div>
           ))}
