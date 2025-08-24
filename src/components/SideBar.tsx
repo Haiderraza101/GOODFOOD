@@ -135,7 +135,7 @@ export default function SideBar() {
     
     
  <Link
- href="#" className={
+ href="/CustomerReview" className={
         `
         px-6 flex gap-4 p-2 group rounded-xl ${
           activeitem === "CustomerReview" ? 'bg-[#7476d4]/10' : ''

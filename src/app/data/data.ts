@@ -167,3 +167,60 @@ export const foodData: FoodData[] = [
     bgcolor: "#FDF3FB",
   },
 ];
+
+
+export const reviews = [
+  {
+    id: 1,
+    text: "The food at GoodFood was absolutely delicious! Fresh ingredients, vibrant flavors, and the presentation was top-notch. The service was quick and attentive, making the entire dining experience seamless. I especially loved how fresh everything tasted, and the desserts were an absolute treat. It’s rare to find a place that balances quality and affordability so well.",
+    name: "John Doe",
+    company: "Food Blogger",
+    image: "/johndoe.png",
+    positions: {
+      sm: { x: -150, y: -320 },
+      md: { x: -230, y: -380 },
+      lg: { x: -500, y: -200 },
+      xl: { x: -500, y: -200 },
+    },
+  },
+  {
+    id: 2,
+    text: "Amazing customer service and the best pizza I’ve ever had! The crust was perfectly crispy, the toppings were generous, and the flavors blended beautifully. The staff was welcoming and made me feel right at home. I’ve traveled to many places, but GoodFood really sets the bar high for quality and consistency. Highly recommend to anyone visiting town!",
+    name: "Sarah Johnson",
+    company: "Traveler",
+    image: "/sarahjohnson.png",
+    positions: {
+      sm: { x: -150, y: 250 },
+      md: { x: -200, y: 300 },
+      lg: { x: 400, y: 150 },
+      xl: { x: 400, y: 150 },
+    },
+  },
+  {
+    id: 3,
+    text: "GoodFood’s environment is cozy and family-friendly. The décor creates such a warm vibe, and the staff goes out of their way to ensure everyone is comfortable. The burgers were juicy, the shakes were creamy, and everything was reasonably priced. My kids loved it so much that they’re already asking when we’re going back!",
+    name: "David Smith",
+    company: "Local Guide",
+    image: "/davidsmith.png",
+    positions: {
+      sm: { x: 50, y: -320 },
+      md: { x: 200, y: -380 },
+      lg: { x: 400, y: -200 },
+      xl: { x: 400, y: -200 },
+    },
+  },
+  {
+    id: 4,
+    text: "Great taste, excellent delivery service, and affordable prices. Their delivery was right on time, food was still hot, and the flavors were spot-on. I’ve tried their salads, pastas, and desserts – everything has been consistently excellent. It has become my go-to restaurant for both dine-in and takeout.",
+    name: "Emily Davis",
+    company: "Entrepreneur",
+    image: "/emilydavis.png",
+    positions: {
+      sm: { x: 80, y: 250 },
+      md: { x: 150, y: 300 },
+      lg: { x: -250, y: 150 },
+      xl: { x: -500, y: 150 },
+    },
+  },
+  
+];
