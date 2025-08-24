@@ -54,7 +54,7 @@ export default function CustomerReview() {
                 whileHover={{scale:1.6}}
                 animate={{ scale: index === activeindex ? 1.6 : 1 }} 
                 key={review.id} 
-                className={`absolute rounded-full overflow-hidden shadow-md cursor-pointer border-2 ${index === activeindex ? "border-indigo-500":"border-white"}`}
+                className={`absolute rounded-full overflow-hidden shadow-md cursor-pointer border-2 hidden sm:flex ${index === activeindex ? "border-indigo-500":"border-white"}`}
                 style={{
                   width:"80px",
                   height:"80px",
@@ -78,30 +78,29 @@ export default function CustomerReview() {
           <span className="text-gray-700">Customers</span>
         </div>
         <AnimatePresence mode="wait">
-          <motion.div
-            key={activereview.id}
-            className="relative z-10 max-w-2xl w-full bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-2xl shadow-2xl p-6 sm:p-10 text-center"
-            style={{
-              transformOrigin: `${50 + activeposition.x}px ${50 + activeposition.y}px`
-            }}
-            initial={{
-              opacity:0,
-              scale:0.5,
-            }}
-            animate = {{opacity:1,scale:1}}
-            exit={{opacity:0,scale:0.7}}
-            transition={{duration:0.6}}>
-            <FaQuoteLeft className="text-3xl sm:text-4xl text-white/50 mx-auto mb-4"/>
-            <p className="text-base sm:text-lg leading-relaxed">
-              {activereview.text}
-            </p>
-            <p className="mt-6 font-semibold text-teal-200 text-sm sm:text-base">
-              {activereview.name}{" "}
-              <span className="text-white/80 font-normal">
-                ({activereview.company})
-              </span>
-            </p>
-          </motion.div>
+         <motion.div
+  key={activereview.id}
+  className="relative z-10 w-full max-w-xs sm:max-w-2xl bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-2xl shadow-2xl p-6 sm:p-10 text-center"
+  style={{
+    transformOrigin: `${50 + activeposition.x}px ${50 + activeposition.y}px`
+  }}
+  initial={{ opacity: 0, scale: 0.5 }}
+  animate={{ opacity: 1, scale: 1 }}
+  exit={{ opacity: 0, scale: 0.7 }}
+  transition={{ duration: 0.6 }}
+>
+  <FaQuoteLeft className="text-3xl sm:text-4xl text-white/50 mx-auto mb-4" />
+  <p className="text-base sm:text-lg leading-relaxed">
+    {activereview.text}
+  </p>
+  <p className="mt-6 font-semibold text-teal-200 text-sm sm:text-base">
+    {activereview.name}{" "}
+    <span className="text-white/80 font-normal">
+      ({activereview.company})
+    </span>
+  </p>
+</motion.div>
+
         </AnimatePresence>
       </div>
     </div>
