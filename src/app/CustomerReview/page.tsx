@@ -39,7 +39,7 @@ export default function CustomerReview() {
   return (
     <div className="relative min-h-screen w-full flex items-center justify-center px-4">
       <div
-        className="absolute inset-0 z-0"
+        className="hidden sm:flex absolute inset-0 z-0"
         style={{
           background:
             "radial-gradient(120% 120% at 50% 10%, #ffffff 30%, #c7d2fe 100%)",
@@ -80,7 +80,7 @@ export default function CustomerReview() {
         <AnimatePresence mode="wait">
          <motion.div
   key={activereview.id}
-  className="relative z-10 w-full max-w-xs sm:max-w-2xl bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-2xl shadow-2xl p-6 sm:p-10 text-center"
+  className="relative z-10 w-full max-w-xs sm:max-w-2xl bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-2xl shadow-2xl px-2 mr-10 sm:mr-0 py-6 sm:p-10 text-center"
   style={{
     transformOrigin: `${50 + activeposition.x}px ${50 + activeposition.y}px`
   }}
