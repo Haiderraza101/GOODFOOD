@@ -15,7 +15,7 @@ export default function OrderFoodBanner(){
        
 </div>
      <div className="lg:flex lg:flex-col sm:flex gap-3 p-5  pr-0  pl-0
-       sm:pl-5 items-center">
+       sm:pl-5 items-center sm:ml-20 lg:ml-0">
            <div className="ml-8 sm:ml-0">
             <DishPerformance />
            </div>
