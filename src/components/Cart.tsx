@@ -65,7 +65,7 @@ export default function Cart(){
       key={index}
       className="flex items-center  flex-wrap justify-between bg-white rounded-xl p-3 shadow-sm border border-gray-200"
     >
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="flex  items-center gap-3">
        
         <div className="w-12 h-12 flex items-center justify-center bg-gray-100 rounded-full overflow-hidden">
           <Image

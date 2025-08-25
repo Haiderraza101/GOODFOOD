@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function NewDish() {
   return (
     <div className="p-2 w-full max-w-xs mx-auto">
-      <div className="bg-white border border-gray-100 shadow-md rounded-xl overflow-hidden ml-10 sm:ml-0 mt-10 sm:mt-0">
+      <div className="bg-white border border-gray-100 shadow-md rounded-xl overflow-hidden ml-6 sm:ml-0 mt-10 sm:mt-0">
         
         <div className="relative h-28 flex items-center justify-center">
           <Image

@@ -82,7 +82,7 @@ export default function CustomerReview() {
         <AnimatePresence mode="wait">
          <motion.div
   key={activereview.id}
-  className="relative z-10 w-full max-w-xs sm:max-w-2xl bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-2xl shadow-2xl px-2 mr-10 sm:mr-0 py-6 sm:p-10 text-center"
+  className="relative z-10 w-full max-w-xs sm:max-w-2xl bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-2xl shadow-2xl px-2 mr-10 sm:mr-0 py-6 sm:p-10 text-center mt-20 sm:mt-0"
   style={{
     transformOrigin: `${50 + activeposition.x}px ${50 + activeposition.y}px`
   }}
