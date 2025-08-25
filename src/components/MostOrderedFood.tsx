@@ -38,7 +38,8 @@ export default function MostOrderedFood(){
         {
           data.map((data,index)=>(
             <div
-            className="flex justify-between border-b border-b-gray-300 p-3
+            className="flex justify-between
+            flex-wrap border-b border-b-gray-300 p-3
             items-center"
             key={index}>
               <div className="flex gap-2 items-center">

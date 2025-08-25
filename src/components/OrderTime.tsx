@@ -53,7 +53,7 @@ const renderActiveShape = (props: any) => {
 
 const CustomLegend = () => {
   return (
-    <div className="flex justify-center gap-6 text-sm lg:-mt-12 -mt-8">
+    <div className="flex justify-center gap-6 lg:gap-1 xl:gap-6 text-sm lg:-mt-12 -mt-8">
       {data.map((item, idx) => (
         <div key={idx} className="flex items-center gap-2">
           <span
@@ -72,7 +72,7 @@ const CustomLegend = () => {
 export default function OrderTime(){
   return (
     <div >
-      <div className="lg:px-10 sm:px-6 px-2">
+      <div className="lg:px-4 0 sm:px-6  px-2 ">
        <div className="flex justify-between">
          <div className=" text-sm">
         Order Time

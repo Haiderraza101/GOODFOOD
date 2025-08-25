@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function FoodCard({ foodData }: EditFoodCardProps) {
   return (
-    <div className="bg-white w-full flex flex-col sm:flex-row justify-between items-center p-2 rounded-3xl border border-gray-100 shadow hover:shadow-md transition-all duration-300">
-      <div className="flex gap-4 w-full sm:w-auto">
+    <div className="bg-white w-full flex flex-col sm:flex-row justify-between items-center p-2 rounded-3xl border border-gray-100 shadow hover:shadow-md transition-all duration-300 ml-5 sm:ml-0">
+      <div className="flex gap-4 w-full  sm:w-auto">
         <div className="bg-indigo-50 p-3 rounded-2xl flex items-center justify-center">
           <Image
             src={foodData.photourl}

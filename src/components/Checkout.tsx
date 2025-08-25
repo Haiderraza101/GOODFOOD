@@ -42,7 +42,7 @@ export default function Checkout() {
 
        
         <div className="mt-6">
-          <button className="w-full px-4 py-3 rounded-xl bg-indigo-300 text-white font-semibold shadow-md hover:bg-indigo-400 hover:shadow-lg transition duration-300 ease-in-out">
+          <button className="w-full px-4 py-3 rounded-xl bg-indigo-400 text-white font-semibold shadow-md hover:bg-indigo-500 hover:shadow-lg transition duration-300 ease-in-out">
             Proceed to Checkout
           </button>
         </div>

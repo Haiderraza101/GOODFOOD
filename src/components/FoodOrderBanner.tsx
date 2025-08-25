@@ -18,7 +18,7 @@ Your favorite cuisines, just a click away
 </div>
 
 <div className="py-5">
-  <div className="px-3 py-3 rounded-2xl bg-indigo-300 hover:bg-indigo-400 text-white font-semibold shadow-md cursor-pointer hover:shadow-lg hover:scale-105 transform transition duration-300 ease-in-out text-center max-w-2xl lg:max-w-xs">
+  <div className="px-3 py-3 rounded-2xl bg-indigo-400 hover:bg-indigo-500 text-white font-semibold shadow-md cursor-pointer hover:shadow-lg hover:scale-105 transform transition duration-300 ease-in-out text-center max-w-2xl lg:max-w-xs">
     Get Started
   </div>
 

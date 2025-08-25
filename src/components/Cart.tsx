@@ -38,9 +38,9 @@ const cartdata : CartData[] = [
 ]
 export default function Cart(){
   return (
-    <div>
-        <div className="pr-6 sm:p-0 w-full">
-        <div className="bg-white border border-gray-100 shadow-sm p-10 w-full rounded-2xl">
+    <div >
+        <div className="pr-6 sm:pr-6 w-full  ">
+        <div className="bg-white border border-gray-100 shadow-sm p-10 w-full rounded-2xl ml-3 ">
           <div className="flex justify-between">
             <div className="flex gap-4">
              <div className="text-indigo-400">
@@ -59,13 +59,13 @@ export default function Cart(){
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"><defs><path id="SVG1pzpbdYY" fill="currentColor" d="m7.588 12.43l-1.061 1.06L.748 7.713a.996.996 0 0 1 0-1.413L6.527.52l1.06 1.06l-5.424 5.425z"/></defs><use fill-rule="evenodd" href="#SVG1pzpbdYY" transform="rotate(-180 5.02 9.505)"/></svg>
             </div>
             </div>
-         <div className="py-6 flex flex-col gap-4">
+         <div className="py-6 flex flex-col gap-4 ">
   {cartdata.map((cart, index) => (
     <div
       key={index}
-      className="flex items-center justify-between bg-white rounded-xl p-3 shadow-sm border border-gray-200"
+      className="flex items-center  flex-wrap justify-between bg-white rounded-xl p-3 shadow-sm border border-gray-200"
     >
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-3">
        
         <div className="w-12 h-12 flex items-center justify-center bg-gray-100 rounded-full overflow-hidden">
           <Image

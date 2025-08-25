@@ -37,9 +37,9 @@ export default function CustomerReview() {
   const activeposition = activereview.positions[screensize];
 
   return (
-    <div className="relative min-h-screen w-full flex items-center justify-center px-4">
+    <div className="relative min-h-screen w-full flex items-center justify-center px-4 ">
       <div
-        className="hidden sm:flex absolute inset-0 z-0"
+        className="hidden lg:flex absolute inset-0 z-0"
         style={{
           background:
             "radial-gradient(120% 120% at 50% 10%, #ffffff 30%, #c7d2fe 100%)",
@@ -50,30 +50,32 @@ export default function CustomerReview() {
           {reviews.map((review,index)=>{
             const pos = review.positions[screensize];
             return (
-              <motion.div
-                whileHover={{scale:1.6}}
-                animate={{ scale: index === activeindex ? 1.6 : 1 }} 
-                key={review.id} 
-                className={`absolute rounded-full overflow-hidden shadow-md cursor-pointer border-2 hidden sm:flex ${index === activeindex ? "border-indigo-500":"border-white"}`}
-                style={{
-                  width:"80px",
-                  height:"80px",
-                  left:`calc(50% + ${pos.x}px)`,
-                  top:`calc(50% + ${pos.y}px)`
-                }}
-                onClick={() => setactiveindex(index)}>
-                <Image
-                  width={50}
-                  height={50}
-                  src={review.image}
-                  alt={review.name}
-                  className="w-full h-full object-cover"
-                />
-              </motion.div>
+             <motion.div
+  whileHover={{ scale: 1.6 }}
+  animate={{ scale: index === activeindex ? 1.6 : 1 }}
+  key={review.id}
+  className={`absolute rounded-full overflow-hidden shadow-md cursor-pointer border-2 
+    ${index === activeindex ? "border-indigo-500" : "border-white"}
+    w-14 h-14 sm:w-18 sm:h-18 md:w-20 md:h-20`}
+  style={{
+    left: `calc(50% + ${pos.x}px)`,
+    top: `calc(50% + ${pos.y}px)`
+  }}
+  onClick={() => setactiveindex(index)}
+>
+  <Image
+    width={50}
+    height={50}
+    src={review.image}
+    alt={review.name}
+    className="w-full h-full object-cover"
+  />
+</motion.div>
+
             )
           })}
         </div>
-        <div className="absolute top-8 w-full flex justify-center text-xl sm:text-2xl font-bold tracking-tight ">
+        <div className="absolute top-8 w-full flex justify-center text-xl sm:text-2xl font-bold tracking-tight mr-10">
           <span className="text-indigo-500">Happy&nbsp;</span>
           <span className="text-gray-700">Customers</span>
         </div>

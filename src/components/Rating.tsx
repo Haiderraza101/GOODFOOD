@@ -21,7 +21,7 @@ export default function Rating() {
         </div>
         </div>
 
-       <div className="absolute -bottom-[20%] -left-[6%]
+       <div className="absolute -bottom-[20%] left-[10%]
        sm:left-[0%] md:left-[12%] md:-bottom-[18%]
        lg:left-16 
        lg:top-32

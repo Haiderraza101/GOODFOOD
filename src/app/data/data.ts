@@ -177,10 +177,10 @@ export const reviews = [
     company: "Food Blogger",
     image: "/johndoe.png",
     positions: {
-      sm: { x: -150, y: -320 },
-      md: { x: -230, y: -380 },
-      lg: { x: -500, y: -200 },
-      xl: { x: -500, y: -200 },
+      sm: { x: -120, y: -270 },
+      md: { x: -230, y: -270 },
+      lg: { x: -250, y: -300 },
+      xl: { x: -400, y: -300 },
     },
   },
   {
@@ -190,10 +190,10 @@ export const reviews = [
     company: "Traveler",
     image: "/sarahjohnson.png",
     positions: {
-      sm: { x: -150, y: 250 },
-      md: { x: -200, y: 300 },
-      lg: { x: 400, y: 150 },
-      xl: { x: 400, y: 150 },
+      sm: { x: -120, y: 250 },
+      md: { x: -200, y: 220 },
+      lg: { x: 200, y: 200 },
+      xl: { x: 300, y: 200 },
     },
   },
   {
@@ -203,10 +203,10 @@ export const reviews = [
     company: "Local Guide",
     image: "/davidsmith.png",
     positions: {
-      sm: { x: 50, y: -320 },
-      md: { x: 200, y: -380 },
-      lg: { x: 400, y: -200 },
-      xl: { x: 400, y: -200 },
+      sm: { x: 30, y: -270 },
+      md: { x: 200, y: -270 },
+      lg: { x: 200, y: -300 },
+      xl: { x: 300, y: -300 },
     },
   },
   {
@@ -216,10 +216,10 @@ export const reviews = [
     company: "Entrepreneur",
     image: "/emilydavis.png",
     positions: {
-      sm: { x: 80, y: 250 },
-      md: { x: 150, y: 300 },
-      lg: { x: -250, y: 150 },
-      xl: { x: -500, y: 150 },
+      sm: { x: 30, y: 250 },
+      md: { x: 150, y: 220 },
+      lg: { x: -250, y: 200 },
+      xl: { x: -400, y: 200 },
     },
   },
   
