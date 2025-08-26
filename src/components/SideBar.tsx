@@ -226,7 +226,7 @@ export default function SideBar() {
 
 
      <Link
- href="#" className={
+ href="Accounts" className={
         `
         px-6 flex gap-4 p-2 group rounded-xl ${
           activeitem === "Accounts" ? 'bg-[#7476d4]/10' : ''
@@ -256,7 +256,7 @@ export default function SideBar() {
 
 
      <Link
- href="#" className={
+ href="Help" className={
         `
         px-6 flex gap-4 p-2 group rounded-xl ${
           activeitem === "Help" ? 'bg-[#7476d4]/10' : ''

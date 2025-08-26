@@ -10,14 +10,13 @@ import Email from "@/components/Email";
 const tabs = [
   "My details",
   "Password",
-  "Billings",
   "Plan",
   "Email",
   "Notifications",
 ];
 
 export default function Settings() {
-  const [activeTab, setActiveTab] = useState("Billings");
+  const [activeTab, setActiveTab] = useState("My details");
 
   const renderTab = () => {
     switch (activeTab) {
@@ -25,8 +24,6 @@ export default function Settings() {
         return <MyDetails />;
       case "Password":
         return <Password />;
-      case "Billings":
-        return <Billings />;
       case "Plan":
         return <Plan />;
       case "Email":
