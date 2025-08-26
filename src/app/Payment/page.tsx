@@ -1,6 +1,9 @@
 import Balance from "@/components/Balance";
 import Deposit from "@/components/Deposit";
+import PaymentAnalytics from "@/components/PaymentAnalytics";
 import QuickTransfer from "@/components/QuickTransfer";
+import RecentTransactions from "@/components/RecentTransactions";
+import UpComingPayments from "@/components/UpcomingPayments";
 import Image from "next/image";
 
 
@@ -20,6 +23,21 @@ export default function Payment() {
         <Deposit/>
         
       </div>
+     <div>
+      
+     </div >
+      <div className="p-4 lg:py-8 lg:flex lg:pl-10">
+        <RecentTransactions/>
+
+        <div className="">
+        <PaymentAnalytics/>
+      </div>
+      </div>
+
+      <div className="sm:px-10 lg:pl-15">
+        <UpComingPayments/>
+      </div>
+      
     </div>
   );
 }
