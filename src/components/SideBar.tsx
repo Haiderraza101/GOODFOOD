@@ -169,7 +169,7 @@ export default function SideBar() {
             <div className="flex flex-col gap-1 cursor-pointer">
 
                <Link
- href="#" className={
+ href="/Settings" className={
         `
         px-6 flex gap-4 p-2 group rounded-xl ${
           activeitem === "Settings" ? 'bg-[#7476d4]/10' : ''

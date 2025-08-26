@@ -4,9 +4,9 @@ export default function FoodCard({food}:FoodCardProps){
 
   return (
     <div>
-      <div className="bg-white w-full max-w-sm  pb-5 p-1 rounded-2xl border border-gray-200">
+      <div className="bg-white w-full max-w-sm  pb-5 p-1 rounded-2xl border border-gray-200 shadow-lg">
 <div
-  className="p-5 px-15 sm:px-2 sm:p-2 max-h-100 rounded-2xl flex items-center justify-center  bg-indigo-300"
+  className="p-5 px-15 sm:px-2 sm:p-2 max-h-100 rounded-2xl flex items-center justify-center  shadow-md"
 >
   <div className="w-[120px] h-[120px] flex items-center justify-center">
     <Image
@@ -61,7 +61,7 @@ export default function FoodCard({food}:FoodCardProps){
           </div>
       </div>
       <div className="flex">
-        <div className="text-xs p-2 bg-indigo-300 w-1/2 rounded-full z-10 cursor-pointer text-center border border-gray-300 text-white">
+        <div className="text-xs p-2 bg-indigo-400 w-1/2 rounded-full z-10 cursor-pointer text-center border border-gray-300 text-white">
           Add to Cart
         </div>
         <div className="text-xs p-2 bg-white  w-1/2 rounded-r-full text-gray-800 -ml-2  border-r-1 border-r-gray-300 border-b-1 border-b-gray-300 border-t-1 border-t-gray-300 text-center">
