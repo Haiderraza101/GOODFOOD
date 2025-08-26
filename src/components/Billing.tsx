@@ -4,7 +4,7 @@ export default function Billings() {
   return (
     <div className="space-y-10">
       <div>
-        <h2 className="text-sm font-semibold mb-1">Payment Method</h2>
+        <h2 className="text-sm font-semibold mb-1 pt-4">Payment Method</h2>
         <p className="text-sm text-gray-500 mb-4">
           Update your billing details and address.
         </p>
