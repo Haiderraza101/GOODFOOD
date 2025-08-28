@@ -1,6 +1,6 @@
 export default function Rating() {
   return (
-    <div className="sm:px-8 px-2 pb-20">
+    <div className="sm:px-8 px-6 pb-20">
       <div className="pt-8 pb-2 font-medium text-lg">
         Your Rating
       </div>

@@ -72,7 +72,7 @@ const CustomLegend = () => {
 export default function OrderTime(){
   return (
     <div >
-      <div className="lg:px-4 0 sm:px-6  px-2 ">
+      <div className="lg:px-4 0 sm:px-6  px-6 ">
        <div className="flex justify-between">
          <div className=" text-sm">
         Order Time

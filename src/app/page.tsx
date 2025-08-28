@@ -7,8 +7,8 @@ import Revenue from "@/components/Revenue"
 export default function App() {
   return (
     <div>
-      <div className="lg:mr-0 mr-10">
-          <div className="font-medium lg:px-10 lg:py-5 sm:px-6 px-2 py-3 text-gray-700 ">
+      <div className="lg:mr-0 ">
+          <div className="font-medium lg:px-10 lg:py-5 sm:px-6 px-6 py-3 text-gray-700 ">
             Dashboard
           </div>
 

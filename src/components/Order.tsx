@@ -20,7 +20,7 @@ const data = [
 
 export default function Order() {
   return (
-    <div className=" sm:p-6 p-2">
+    <div className=" px-6 sm:p-6 p-2">
       
       <div className="flex justify-between items-center">
         <div className="text-sm">Order</div>

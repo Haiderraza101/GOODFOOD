@@ -38,7 +38,7 @@ export default function RootLayout({
         className={`${inter.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <SideBar/>
-        <div className="lg:ml-72 md:ml-10 sm:ml-10 ml-10 ">
+        <div className="lg:ml-72 md:ml-6 sm:ml-6  ">
                   <Navbar />
         {children}
         </div>

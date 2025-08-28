@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Payment() {
   return (
-    <div className=" bg-white lg:bg-violet-50 min-h-screen mr-10 lg:mr-0 p-5">
+    <div className=" bg-white lg:bg-violet-50 min-h-screen  lg:mr-0 p-5">
       <div className=" grid 
   grid-cols-1           
   sm:grid-cols-2       

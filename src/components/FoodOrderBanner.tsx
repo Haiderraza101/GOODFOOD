@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function FoodOrderBanner(){
   return (
     <div>
-           <div className="flex flex-col lg:flex-row justify-between lg:items-start items-center lg:p-10 p-2 sm:p-6">
+           <div className="flex flex-col lg:flex-row justify-between lg:items-start items-center lg:p-10 p-6 sm:p-6">
         <div className="text-center lg:text-left">
           <div className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-600">
             Order Food Online

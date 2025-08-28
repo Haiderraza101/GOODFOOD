@@ -10,7 +10,7 @@ export default function EditMenu(){
       </div>
       
     <div className="grid grid-cols-1 sm:gap-4
-       gap-4 sm:p-10 pt-4 ">
+       gap-4 px-5 sm:p-10 pt-4 ">
       {foodData.map((food, index) => (
         <EditFoodCard key={index} foodData={food} />
       ))}

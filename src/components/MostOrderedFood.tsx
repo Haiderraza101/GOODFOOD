@@ -26,12 +26,12 @@ const data : MonstOrderedFoodList[] = [
 
 export default function MostOrderedFood(){
   return (
-  
-       <div className="sm:px-8 pl-2 pb-20">
-      <div className="pt-8 pb-2 font-medium text-lg">
+      
+       <div className="sm:px-8  px-6 pl-2 pb-20">
+      <div className="pt-8 pb-2 font-medium text-lg px-6 sm:px-0">
         Most Ordered Food
       </div>
-      <div className="text-sm text-gray-500 mb-6 pb-2">
+      <div className="text-sm text-gray-500 mb-6 pb-2 px-6 sm:px-0">
         The start of our menu choosen by most of you
       </div>
       <div>
