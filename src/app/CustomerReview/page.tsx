@@ -37,7 +37,7 @@ export default function CustomerReview() {
   const activeposition = activereview.positions[screensize];
 
   return (
-    <div className="relative min-h-screen w-full flex items-center justify-center px-4 ">
+    <div className="relative min-h-screen w-full flex items-center justify-center px-4 ml-8 sm:ml-0">
       <div
         className="hidden lg:flex absolute inset-0 z-0"
         style={{
