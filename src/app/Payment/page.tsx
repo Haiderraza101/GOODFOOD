@@ -26,7 +26,7 @@ export default function Payment() {
      <div>
       
      </div >
-      <div className="p-4 lg:py-8 lg:flex lg:pl-10">
+      <div className="p-4 lg:py-8 lg:flex lg:pl-10 lg:gap-4">
         <RecentTransactions/>
 
         <div className="">

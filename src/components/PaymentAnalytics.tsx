@@ -69,8 +69,8 @@ const CustomLegend = () => {
 export default function PaymentAnalytics() {
   return (
     <div className="p-2 ">
-      <div className="bg-white px-2 sm:px-6 lg:px-4 py-4 rounded-xl lg:max-w-sm sm:shadow-2xl lg:rounded-xl lg:pb-6">
-        <div className="flex flex-col flex-wrap gap-5 justify-between items-center">
+      <div className="bg-white px-2 sm:px-6 lg:px-4 py-4 rounded-xl lg:max-w-sm sm:shadow-2xl lg:rounded-xl lg:pb-6 ">
+        <div className="flex flex-col sm:flex-row  flex-wrap gap-5 justify-between items-center">
           <div className="text-sm font-semibold">Payment Analytics</div>
           <div className="text-sm text-[#7476d4] bg-gray-50 py-2 px-4 rounded-lg border border-gray-200 cursor-pointer mb-6 sm:mb-0">
             View Report
