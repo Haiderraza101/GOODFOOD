@@ -111,7 +111,7 @@ export default function HelpPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <section className="px-6 md:px-10 pt-10 pb-6 lg:bg-gradient-to-b from-indigo-50 to-white border-b border-gray-200 mr-10 lg:mr-0">
+      <section className="px-8 md:px-10 pt-10 pb-6 lg:bg-gradient-to-b from-indigo-50 to-white border-b border-gray-200 mr-10 lg:mr-0">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-2 text-xs text-gray-500 mb-4">
             <span>Home</span>

@@ -38,7 +38,7 @@ export default function Settings() {
   return (
     <div className="min-h-screen max-w-screen  bg-white">
      
-      <div className="flex-1 px-4  sm:px-8 py-6">
+      <div className="flex-1 px-8  sm:px-8 py-6">
         <h1 className="text-2xl font-semibold">Settings</h1>
         <p className="text-gray-500 mb-6">
           Manage your account settings and preferences.

@@ -20,7 +20,7 @@ export default function OrderFoodBanner({foodData}:OrderFoodBannerProps){
   </div>
 </div>
      <div className="lg:flex lg:flex-col sm:flex gap-3 p-5  pr-0 
-       sm:pl-5 pl-6 ">
+       sm:pl-5 pl-4 ">
            <div >
             <Cart />
            </div>
