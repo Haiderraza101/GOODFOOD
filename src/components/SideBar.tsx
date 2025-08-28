@@ -40,6 +40,7 @@ export default function SideBar() {
         </div>
        <div className="flex flex-col cursor-pointer px-5 text-xs  max-h-1/2 gap-1">
       <Link
+      
       href="/" className={
         `
         px-6 flex gap-4 p-2 group rounded-xl ${
@@ -48,6 +49,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("Dashboard")
       }}
       >
@@ -83,6 +85,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("FoodOrder")
       }}
       >
@@ -114,6 +117,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("ManageMenu")
       }}
       >
@@ -143,6 +147,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("CustomerReview")
       }}
       >
@@ -177,6 +182,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("Settings")
       }}
       >
@@ -206,6 +212,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("Payments")
       }}
       >
@@ -234,6 +241,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("Accounts")
       }}
       >
@@ -264,6 +272,7 @@ export default function SideBar() {
         `
       }
       onClick={() =>{
+        setsidebaropen(false);
         setactiveitem("Help")
       }}
       >
